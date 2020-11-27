@@ -1,0 +1,189 @@
+* {
+  margin: 0; }
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.slide {
+  display: flex;
+  height: 100%; }
+
+.lady {
+  width: 200px;
+  height: 500px;
+  align-self: flex-end;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+@keyframes showText {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes clicked {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(-360deg); } }
+.office-1 {
+  background-image: url("./../assest/office.jpg"); }
+
+.office-2 {
+  background-image: url("./../assest/office-2.jpg"); }
+
+.office-3 {
+  background-image: url("./../assest/office-3.jpg"); }
+
+.sara-1 {
+  background-image: url("./../assest/sara-1.png"); }
+.sara-2 {
+  background-image: url("./../assest/sara-2.png"); }
+.sara-3 {
+  background-image: url("./../assest/sara-3.png"); }
+.sara-4 {
+  background-image: url("./../assest/sara-4.png"); }
+.sara-5 {
+  background-image: url("./../assest/sara-5.png"); }
+.sara-6 {
+  background-image: url("./../assest/sara-6.png"); }
+.sara-bye {
+  background-image: url("./../assest/sara-bye.png"); }
+
+.lara-1 {
+  background-image: url("./../assest/lara-1.png");
+  height: 520px; }
+.lara-2 {
+  background-image: url("./../assest/lara-2.png");
+  height: 520px; }
+.lara-3 {
+  background-image: url("./../assest/lara-3.png");
+  height: 520px; }
+.lara-4 {
+  background-image: url("./../assest/lara-4.png");
+  height: 520px; }
+.lara-5 {
+  background-image: url("./../assest/lara-5.png");
+  height: 520px; }
+.lara-6 {
+  background-image: url("./../assest/lara-6.png");
+  height: 520px; }
+.lara-bye {
+  background-image: url("./../assest/lara-bye.png");
+  height: 520px; }
+
+.speechBox {
+  margin-top: 15%;
+  padding: 20px;
+  width: 350px;
+  height: 190px; }
+
+.sp-box {
+  width: 350px;
+  opacity: .8;
+  position: absolute; }
+
+.sp-box-details {
+  width: 385px;
+  opacity: .8;
+  position: absolute; }
+
+.option {
+  margin: 0 5px;
+  cursor: pointer; }
+
+.label {
+  font-weight: 600;
+  cursor: pointer; }
+
+.speechText {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  padding: 30px 15px;
+  transform: translate(5%, 5%);
+  animation: showText 1s ease-in-out;
+  transition: all .4s ease; }
+
+.speechTextwithInfo {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  padding: 12px;
+  transform: translate(5%, 5%);
+  animation: showText 1s ease-in-out;
+  transition: all .4s ease; }
+
+.situation {
+  margin-bottom: 15px;
+  font-weight: bold; }
+
+.option-container {
+  margin: 5px 0;
+  letter-spacing: 1px;
+  transition: all .4s ease; }
+
+.option-container:hover {
+  color: indigo;
+  font-weight: bold; }
+
+@media only screen and (max-width: 680px) {
+  body {
+    font-size: 13px; }
+
+  .slide {
+    flex-direction: column-reverse; }
+
+  .lady {
+    height: 450px;
+    align-self: center; }
+
+  .speechBox {
+    margin-top: 0; }
+
+  .sp-box-details {
+    width: 350px; }
+
+  .Reset {
+    height: 65px; } }
+@media only screen and (max-width: 420px) {
+  .speechBox {
+    padding: 10px; } }
+.Reset {
+  height: 80px;
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  cursor: pointer;
+  transition: all .4s ease-in-out; }
+
+.Reset:active {
+  bottom: 22px; }
+
+.arrow {
+  width: 80px;
+  background-image: url("./../assest/reset-arrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.arrow:hover {
+  animation: clicked 1s ease-in-out; }
+
+.text {
+  width: 120px;
+  background-image: url("./../assest/reset-text.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.text:hover {
+  transform: scale(1.1); }
+
+/*# sourceMappingURL=App.css.map */

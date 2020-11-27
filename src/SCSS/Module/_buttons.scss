@@ -1,0 +1,36 @@
+.Reset {
+    height: 80px;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.Reset:active {
+    bottom: 22px;
+}
+
+.arrow {
+    width: 80px;
+    background-image: url("./../assest/reset-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.arrow:hover {
+    animation: clicked 1s ease-in-out;
+}
+
+.text {
+    width: 120px;
+    background-image: url("./../assest/reset-text.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.text:hover {
+    transform: scale(1.1);
+}

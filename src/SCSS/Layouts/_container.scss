@@ -1,0 +1,64 @@
+.speechBox {
+    margin-top: 15%;
+    padding: 20px;
+    width: 350px;
+    height: 190px;
+}
+
+.sp-box {
+    width: 350px;
+    opacity: .8;
+    position: absolute;
+}
+
+.sp-box-details {
+    width: 385px;
+    opacity: .8;
+    position: absolute;
+}
+
+.option {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.label {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.speechText {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    padding: 30px 15px;
+    transform: translate(5%, 5%);
+    animation: showText 1s ease-in-out;
+    transition: all .4s ease;
+}
+
+.speechTextwithInfo {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    padding: 12px;
+    transform: translate(5%, 5%);
+    animation: showText 1s ease-in-out;
+    transition: all .4s ease;
+}
+
+.situation {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.option-container {
+    margin: 5px 0;
+    letter-spacing: 1px;
+    transition: all .4s ease;
+}
+
+.option-container:hover {
+    color: indigo;
+    font-weight: bold;
+}
