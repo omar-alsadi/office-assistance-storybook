@@ -7,7 +7,7 @@ Please do not forget to download npm packages after downloading the app at the f
 
 To run app just open the terminal and type  
 
-- npm run
+- npm start
 
 // The UI components will change depending on what option you choose
 
