@@ -15,7 +15,7 @@ const ResetButton = () => {
 
     return (
         <div>
-            <div className='Reset text' alt='reset' title='Reset' value='' onClick={e => hundleClick(e)} />
+            <div className='Reset arrow' alt='reset' title='Reset' value='' onClick={e => hundleClick(e)} />
         </div>
     )
 }

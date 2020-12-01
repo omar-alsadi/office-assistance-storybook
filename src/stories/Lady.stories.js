@@ -2,10 +2,12 @@ import React from 'react';
 
 import { Lady } from './Lady';
 
-export default {
-  title: 'Example/Lady',
-  component: Lady,
-};
+// I commented this to make it easier for non-developer users
+
+// export default {
+//   title: 'Example/Lady',
+//   component: Lady,
+// };
 
 const Template = (args) => <Lady {...args} />;
 
