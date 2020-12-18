@@ -4,15 +4,15 @@ Please do not forget to download npm packages after downloading the app at the f
 
 - npm install
 
+---------------------------------------------------------------
 
-To run app just open the terminal and type  
+To run app just open the terminal and type : **Note: The UI components will change depending on what option you choose
 
 - npm start
 
-// The UI components will change depending on what option you choose
+---------------------------------------------------------------
 
-
-To run Storybook app just type  // You be able to change UI components by storybook
+To run Storybook version just type :  **Note: You be able to change UI components by storybook
 
 - npm run storybook
 
